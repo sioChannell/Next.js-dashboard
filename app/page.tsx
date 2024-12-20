@@ -33,7 +33,8 @@ export default function Page() {
           {/* Add Hero Images Here */}
           {/* 移动屏幕 桌面屏幕 是Tailwind CSS 类*/}
           {/* 这些类背后实际上是基于 CSS 的媒体查询 */}
-          {/* 在 JSX 中使用花括号 {} 是插入 JavaScript 表达式的方式，确保传递的数据类型正确 */}
+          {/* 在 JSX 中使用花括号 {} 是插入 JavaScript 表达式的方式，确保传递的数据类型正确
+          width="1000"或width=1000则会被解析为字符串类型(string) */}
           <Image
             src="/hero-desktop.png"
             width={1000}
